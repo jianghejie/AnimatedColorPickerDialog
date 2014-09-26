@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+    
+    <Button
+        android:id="@+id/choose_color"
+        android:layout_width="100dip"
+        android:layout_height="50dip" 
+        android:text="选择颜色"
+        android:onClick="openColorDialog"
+     />
+    <View 
+        android:id="@+id/display_color"
+        android:layout_width="100dip"
+        android:layout_height="50dip"  
+        android:layout_marginTop="15dip"       
+    />
+
+</LinearLayout>
