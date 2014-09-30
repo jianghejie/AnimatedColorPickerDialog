@@ -4,7 +4,7 @@ a simple dialog used to pick a color ,much like the colorpickdialog in the calen
  to use it you just just need to call it's static class Builder like this:
  
  		new  AnimatedColorPickerDialog.Builder(MainActivity.this)
-		.setTitle("选择一种颜色")
+		.setTitle("choose a color")
 		.setColors(styleColors)
 		.setOnColorClickListener(new AnimatedColorPickerDialog.ColorClickListener() {
 			@Override
